@@ -1,0 +1,35 @@
+{
+  "name": "sync-plantuml",
+  "version": "0.0.4",
+  "description": "Convert PlantUML diagram text to SVG with plantuml.jar",
+  "main": "lib/plantuml.js",
+  "license": "MIT",
+	"type": "commonjs",
+  "keywords": [
+    "PlantUML",
+    "UML",
+    "Unified Modeling Language",
+    "Modeling",
+    "Sequence diagram",
+    "Usecase diagram",
+    "Class diagram",
+    "Activity diagram",
+    "Component diagram",
+    "State diagram",
+    "Object diagram",
+    "Deployment diagram",
+    "Timing diagram"
+  ],
+  "bugs": "https://github.com/nishidemasami/sync-plantuml/issues",
+  "repository": "git://github.com/nishidemasami/sync-plantuml.git",
+  "author": "NISHIDE, Masami <nishidemasami@gmail.com>",
+  "scripts": {
+    "lint": "eslint lib .eslintrc.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4"
+  }
+}
